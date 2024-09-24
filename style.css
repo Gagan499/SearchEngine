@@ -14,15 +14,24 @@ body {
     color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    margin: 0;
+}
+h1 img{
+    width: 28vh;
+    height: 135px;
 }
 
 input[type="text"] {
-    width: 70%;
+    width: 77%;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 40px;
+    color: #293f5a;
+    background: transparent;
 }
 
 button {
@@ -46,7 +55,8 @@ ul {
 
 li {
     padding: 8px;
-    background-color: #e1f5fe;
+    background-color: #c3e3f3;
     margin-bottom: 5px;
     border-radius: 5px;
+    color: #293f5a;
 }

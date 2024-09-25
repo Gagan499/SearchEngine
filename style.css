@@ -2,9 +2,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     text-align: center;
-    background: url(https://w0.peakpx.com/wallpaper/495/427/HD-wallpaper-seo-marketing-services-ranking-higher-on-search-engines.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .container {
@@ -34,20 +31,6 @@ input[type="text"] {
     background: transparent;
 }
 
-button {
-    padding: 10px 15px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f18200;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -64,3 +47,66 @@ li {
 h2{
     color: #293f5a;
 }
+
+button {
+    position: relative;
+    right: -35%;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   button, button span {
+    transition: 200ms;
+   }
+   
+   button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   button .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   button svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   button:hover {
+    background: #ff3636;
+   }
+   
+   button:hover .text {
+    color: transparent;
+   }
+   
+   button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   button:focus {
+    outline: none;
+   }
+   
+   button:active .icon svg {
+    transform: scale(0.8);
+   }
